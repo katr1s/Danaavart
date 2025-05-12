@@ -30,9 +30,9 @@ export default function Danaavart() {
             </a>
 
             <div className="app">
-              <img src="/Icons/sketchbook-svgrepo-com.svg" alt="Sketchbook" title="Sketchbook" />
+              <img src="/Icons/sketchbook-svgrepo-com-2.svg" alt="Sketchbook" title="Sketchbook" />
               <img
-                src="/Icons/adobe-photoshop-svgrepo-com.svg"
+                src="/Icons/adobe-photoshop-svgrepo-com-2.svg"
                 alt="Adobe Photoshop"
                 title="Adobe Photoshop"
               />
