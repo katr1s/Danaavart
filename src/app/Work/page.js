@@ -4,9 +4,10 @@ import Navigation from "@/components/navigation";
 import { useState } from "react";
 import "@/app/Work/work.css"
 import Texture from "@/components/texture";
+import Image from 'next/image';
 
 export default function Work(){
-    const [Image, setImage] = useState("cat.jpg")
+    const [image, setImage] = useState("cat.jpg")
     return(
         <div className="work">
             <div className="content">
@@ -27,7 +28,7 @@ export default function Work(){
                 </div>
 
                 <div className="image">
-                    <img src={`/portfolio/${Image}`} alt="" />
+                    <Image src={`/portfolio/${image}`} alt="" />
 
                     <div className="socialNetwork">
               <a
@@ -35,7 +36,7 @@ export default function Work(){
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <Image
                   src="/Icons/bxl-behance.svg"
                   alt="Behance"
                   title="Behance"
@@ -43,11 +44,11 @@ export default function Work(){
               </a>
 
               <a
-                href="https://www.behance.net/dannavalenzuela5"
+                href="https://www.instagram.com/danvaart/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <Image
                   src="/Icons/bxl-instagram.svg"
                   alt="Instagram"
                   title="Instagram"
