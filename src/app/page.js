@@ -1,13 +1,12 @@
 import "@/app/home.css";
 import Navbar from "@/components/navbar";
-import Image from 'next/image';
 
 export default function Danaavart() {
   return (
     <>
       <div className="hero">
         <div className="background">
-          <Image src="/pexels-steve-1266808.webp" alt="background" />
+          <img src="/pexels-steve-1266808.webp" alt="background" />
         </div>
 
         <div className="content">
@@ -15,12 +14,12 @@ export default function Danaavart() {
 
           <div className="ilustration">
             <h1>Ilustración</h1>
-            <Image src="/1000000444-removebg-preview.png" alt="" />
+            <img src="/1000000444-removebg-preview.png" alt="" />
           </div>
 
           <footer>
             <a href="https://www.instagram.com/danvaart/" target="_blank">
-              <Image
+              <img
                 src="https://mir-s3-cdn-cf.behance.net/user/115/b307d21905088173.670c84517ff7a.jpg"
                 alt="Danaavart"
               />
@@ -31,7 +30,7 @@ export default function Danaavart() {
             </a>
 
             <div className="app">
-              <Image src="/Icons/sketchbook-svgrepo-com.svg" alt="Sketchbook" title="Sketchbook" />
+              <img src="/Icons/sketchbook-svgrepo-com.svg" alt="Sketchbook" title="Sketchbook" />
               <img
                 src="/Icons/adobe-photoshop-svgrepo-com.svg"
                 alt="Adobe Photoshop"

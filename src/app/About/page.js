@@ -1,7 +1,6 @@
 import "@/app/About/about.css";
 import Navigation from "@/components/navigation";
 import Texture from "@/components/texture";
-import Image from 'next/image';
 
 
 export default function About() {
@@ -49,7 +48,7 @@ export default function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
+                <img
                   src="/Icons/bxl-behance.svg"
                   alt="Behance"
                   title="Behance"
@@ -61,7 +60,7 @@ export default function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
+                <img
                   src="/Icons/bxl-instagram.svg"
                   alt="Instagram"
                   title="Instagram"
