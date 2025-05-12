@@ -1,95 +1,46 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import "@/app/home.css";
+import Navbar from "@/components/navbar";
+import Link from "next/link";
 
-export default function Home() {
+export default function Danaavart() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+    <>
+      <div className="hero">
+        <div className="background">
+          <img src="/pexels-steve-1266808.webp" alt="background" />
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+        <div className="content">
+          <Navbar/>
+
+          <div className="ilustration">
+            <h1>Ilustración</h1>
+            <img src="/1000000444-removebg-preview.png" alt="" />
+          </div>
+
+          <footer>
+            <a href="https://www.instagram.com/danvaart/" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://mir-s3-cdn-cf.behance.net/user/115/b307d21905088173.670c84517ff7a.jpg"
+                alt="Danaavart"
+              />
+              <div className="inf">
+                <h3>Danvaart</h3>
+                <p>Instagram</p>
+              </div>
+            </a>
+
+            <div className="app">
+              <img src="/Icons/sketchbook-svgrepo-com.svg" alt="Sketchbook" title="Sketchbook" />
+              <img
+                src="/Icons/adobe-photoshop-svgrepo-com.svg"
+                alt="Adobe Photoshop"
+                title="Adobe Photoshop"
+              />
+            </div>
+          </footer>
+        </div>
+      </div>
+    </>
   );
 }
