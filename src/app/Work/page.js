@@ -20,7 +20,7 @@ export default function Work(){
                         <button type="button" onClick={() => setImage("cat.jpg")}>Mascota 🐱</button>
                         <button type="button" onClick={() => setImage("Arcane.webp")}>Arcane + spider-verse = perfección</button>
                         <button type="button" onClick={() => setImage("perfil.jpg")}>Había olvidado que ten&iacute;a esta joya guardada</button>
-                        <button type="button" onClick={() => setImage("carpenter.webp")}>I didn't want your little b** ass anyway</button>
+                        <button type="button" onClick={() => setImage("carpenter.webp")}>I didn&apos;t want your little b** ass anyway</button>
                         <button type="button" onClick={() => setImage("character.webp")}>Character design</button>
 
                     </div>
