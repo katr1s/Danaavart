@@ -27,7 +27,7 @@ export default function Work(){
                 </div>
 
                 <div className="image">
-                    <img src={`/portfolio/${image}`} alt="" />
+                    <img src={`/Portfolio/${image}`} alt="" />
 
                     <div className="socialNetwork">
               <a

@@ -38,7 +38,7 @@ export default function About() {
 
           <div className="photo">
             <img
-              src="/foto.jpg"
+              src="/Foto.jpg"
               alt="Danna Valenzuela"
               title="Danna Valenzuela"
             />
