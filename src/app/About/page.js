@@ -1,6 +1,8 @@
 import "@/app/About/about.css";
 import Navigation from "@/components/navigation";
 import Texture from "@/components/texture";
+import Image from 'next/image';
+
 
 export default function About() {
   return (
