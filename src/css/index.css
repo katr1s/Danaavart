@@ -135,3 +135,49 @@ body {
 }
 
 
+@media (max-width: 1200px) {
+
+  body{
+    overflow-y: auto;
+    height: auto;
+  }
+
+  .hero{
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .hero .content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .content .information{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img{
+      width: 400px;
+    }
+  }
+
+  .hero .content .gallery{
+    text-align: center;
+  }
+
+  .hero .content .gallery p{
+      font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 760px) {
+
+  .hero .content .information h1{
+      font-size: 3rem;
+      line-height: 45px;
+    }
+
+}
