@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fredericka+the+Great&family=Titan+One&display=swap");
+
+:root {
+  --background: #fdf5e6;
+  --foreground: #3a3434;
+  --black: #0000;
+  --purple: #8c52ff;
+  --other_font: "titan one", sans-serif;
+  --text: "Caveat", cursive;
+  --title: "Fredericka the Great", serif;
+  --width: 300px;
+  --height: 70%;
+  --quanity: 7;
+}
+
+a {
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+body {
+  background-color: #fdf5e6;
+  background-image: radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.14) 1px, transparent 0);
+  background-size: 20px 20px;
+  overflow: hidden;
+}
+
+
+.hero {
+  background: transparent;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hero .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .content .information {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2%;
+
+  img{
+    width: 40%;
+    transform: scaleX(-1);
+    opacity: 0.8;
+    mask-image: linear-gradient(black 90%, transparent);
+  }
+}
+
+.hero .content h1 {
+  color: var(--purple);
+  font-family: var(--title);
+  line-height: 90px;
+  font-weight: 500;
+  font-size: 7rem;
+  margin: 0;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.hero .content h3 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-family: var(--text);
+  color: var(--foreground);
+  opacity: 1;
+}
+
+.hero .content .gallery {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2%;
+}
+
+.hero .content .gallery h2{
+  font-size: 4.5rem;
+  font-family: var(--title);
+  color: var(--purple);
+  margin-bottom: 0;
+}
+
+
+.hero .content .gallery p{
+  font-size: 2rem;
+  font-family: var(--text);
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.hero .content .gallery .social{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  img{
+    width: 35px;
+    height: 35px;
+  }
+}
+
+
+.hero .content .gallery .work{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+  img{
+    width: 150px;
+  }
+}
+
+
